@@ -38,3 +38,15 @@ class Rectangle : Shape
         return Width * Height;
     }
 }
+
+class Program
+{
+    static void Main()
+    {
+        Shape circle = new Circle(5);
+        Shape rectangle = new Rectangle(4, 6);
+
+        Console.WriteLine($"Area of Circle: {circle.GetArea()}"); 
+        Console.WriteLine($"Area of Rectangle: {rectangle.GetArea()}"); 
+    }
+}
