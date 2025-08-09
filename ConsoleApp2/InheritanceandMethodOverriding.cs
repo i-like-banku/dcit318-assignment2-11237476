@@ -24,7 +24,7 @@ class Cat : Animal
   }
 }
 
-class MainProgram
+class Program
 {
   static void Main()
   {
